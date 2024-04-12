@@ -84,7 +84,7 @@ function TaskFormPage() {
             if (accepted) {
               await deleteTask(params.id);
               toast.success('Tarea eliminada');
-              navigate("/tasks");
+              navigate("/");
             }
             }}
           >
